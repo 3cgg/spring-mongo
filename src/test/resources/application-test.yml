@@ -1,0 +1,17 @@
+spring :
+    application :
+         admin.enabled : true #MBeanServer
+    data :
+        mongodb :
+              uri : mongodb://192.168.252.4:27017/seeddb
+management : 
+     security.enabled : false 
+logging:
+  level:
+    com.kcfy : DEBUG
+ #   org.springframework: DEBUG
+    
+    
+    
+    
+    
