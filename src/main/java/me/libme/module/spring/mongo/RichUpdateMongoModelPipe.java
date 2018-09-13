@@ -1,14 +1,12 @@
 package me.libme.module.spring.mongo;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 /**
  * Created by J on 2017/8/2.
  */
-@Component
 class RichUpdateMongoModelPipe implements IRichUpdateMongoModel{
 
 //    @Autowired

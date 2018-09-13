@@ -1,14 +1,11 @@
 package me.libme.module.spring.mongo;
 
-import org.springframework.stereotype.Component;
-
 import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by J on 2017/8/1.
  */
-@Component
 public class _MongoCfg implements MongoCfg {
 
     @Override

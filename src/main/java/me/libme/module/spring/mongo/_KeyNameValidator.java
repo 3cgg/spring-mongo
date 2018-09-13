@@ -2,14 +2,12 @@ package me.libme.module.spring.mongo;
 
 import me.libme.kernel._c.json.JJSON;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 /**
  * Created by J on 2017/8/2.
  */
-@Component
 public class _KeyNameValidator implements KeyNameValidator{
 
     @Autowired

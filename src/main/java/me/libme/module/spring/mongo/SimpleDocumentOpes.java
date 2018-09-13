@@ -8,7 +8,6 @@ import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -18,7 +17,6 @@ import java.util.Map;
 /**
  * Created by J on 2017/7/31.
  */
-@Component
 public class SimpleDocumentOpes implements DocumentOperations {
 
     @Autowired(required = false)

@@ -1,7 +1,5 @@
 package me.libme.module.spring.mongo;
 
-import org.springframework.stereotype.Component;
-
 import java.util.IllegalFormatException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -9,7 +7,6 @@ import java.util.regex.Pattern;
 /**
  * Created by J on 2017/7/31.
  */
-@Component
 public class _CollectionNameValidator implements CollectionNameValidator {
 
     @Override
